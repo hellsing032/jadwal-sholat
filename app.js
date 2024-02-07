@@ -10,7 +10,7 @@ function jadwalSholat(latitude, longitude) {
     .then(function (response) {
       let date = new Date();
       let today = date.getDate() - 1;
-      let data = response.data[0].timings;
+      let data = response.data[today].timings;
 
       let app = document.getElementById("app");
       let table = document.createElement("table");

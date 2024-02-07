@@ -1,0 +1,55 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f2;
+    background-image: url(image.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #080808;
+    line-height: 1.5em;
+}
+
+#app {
+    width: 300px;
+    margin: 0px auto;
+}
+
+#app h3 {
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    padding: 0.3em;
+    background: green;
+    color: white;
+    text-align: center;
+}
+
+#app table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#app table td {
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+#app table td:last-child {
+    text-align: right;
+}
+
+#app table tr:nth-child(even) {
+    background: #8b8888;
+}
+
+#app table tr:nth-child(odd) {
+    background: #ddd3d3;
+}
+
+#app table tr:hover {
+    background: green;
+    color: white;
+    cursor: pointer;
+}
