@@ -34,7 +34,8 @@ function success(position) {
 }
 
 function error() {
-  alert("Posisi ente tidak dapat di akses");
+  // default latitude and longitude for jakarta
+  jadwalSholat('-6.200000', '106.816666');
 }
 
 function userLocation() {
